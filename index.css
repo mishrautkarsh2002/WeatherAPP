@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+}
+
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+button {
+    border-radius: 50%;
+    margin: 0.5em;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background-color: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.city {
+    font-size: 2.0em;
+    margin-bottom: 10px;
+}
+
+.search {
+    padding: 0.5em 1em;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-size: 120%;
+    font-family: 'Open Sans', sans-serif;
+    width: calc(100% - 120px);
+}
+
+h1.temp {
+    font-size: 3.0em;
+    margin: 0px;
+    padding-bottom: 8px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+    font-size: 120%;
+}
+
+.humidity {
+    font-size: 120%;
+    padding-bottom: 10px;
+}
+
+.wind {
+    font-size: 120%;
+    padding-bottom: 5px;
+}
